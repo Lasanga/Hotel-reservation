@@ -85,7 +85,7 @@
                 <textarea class="form-control" name="description" id="description"
                           rows="5"
                           placeholder="ex: small villa with beautiful scenery" minlength="10" maxlength="255"
-                          required>{{$post->description}}"</textarea>
+                          required>{{$post->description}}</textarea>
                 <div class="invalid-feedback">
                     Please enter a description with more than 10 characters.
                 </div>
