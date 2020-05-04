@@ -30,6 +30,6 @@ class TwoFactorMail extends Mailable
      */
     public function build()
     {
-        return $this->from('holiday-checkin@mail.com')->subject('verification')->markdown('email.twofactor')->with('data', $this->data );
+        return $this->from('colombobnb@mail.com')->subject('verification')->markdown('email.twofactor')->with('data', $this->data );
     }
 }

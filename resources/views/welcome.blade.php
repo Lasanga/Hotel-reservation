@@ -46,7 +46,7 @@
                 </ul>
                 <div class="d-flex h-100 text-center align-items-center">
                     <div class="w-100 text-white">
-                        <h1 class="display-3">Holiday CheckIN</h1>
+                        <h1 class="display-3">Colombo BNB</h1>
                         <p class="lead mb-0">Find your holiday stay</p>
                         <div class="row">
                             <div class="col-12 s003">
