@@ -96,9 +96,10 @@
                 <label class="custom-file-label" for="validatedCustomFile">Choose file...</label>
             </div>
 
-            <div style="max-height: 300px; overflow-y: scroll" class="row text-center text-lg-left">
-
-                @foreach($post->postImages as $image)
+            <input type="submit" class="mt-4 mb-5 btn btn-block btn-primary" value="Update">
+        </form>
+        <div style="max-height: 300px; overflow-y: scroll" class="row text-center text-lg-left">
+                @foreach($images as $image)
                     <div class="col-lg-3 col-md-4 col-6">
                         <form style="display: inline" action="{{route('deleteImage', ['postImage' => $image])}}" method="POST">
                             @csrf
@@ -112,8 +113,5 @@
                     </div>
                 @endforeach
             </div>
-
-            <input type="submit" class="mt-4 mb-5 btn btn-block btn-primary" value="Update">
-        </form>
     </div>
 @endsection

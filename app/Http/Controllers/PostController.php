@@ -55,8 +55,9 @@ class PostController extends Controller
     {
         $postType = new PostType();
         $types = $postType->Types();
+        $images = $post->postImages;
 
-        return view('editPost', compact('post', 'types'));
+        return view('editPost', compact('post', 'types', 'images'));
     }
 
     public function update(Request $request, Post $post)
