@@ -68,7 +68,7 @@
                                     </div>
 
                                     <div class="form-group row ml-1">
-                                        <div name="captcha" class="g-recaptcha" data-sitekey="6Lcuot0UAAAAAJyJApOoG64ZKgqL1diohwfwoCgH"></div>
+                                        <div name="captcha" class="g-recaptcha" data-sitekey="6LfLYPIUAAAAANEcJnmBxv5vw9H2tSkVvdC_mX6s"></div>
                                         @error('g-recaptcha-response')
                                         <span class="invalid-feedback" role="alert">
                                         <strong>{{ $message }}</strong>

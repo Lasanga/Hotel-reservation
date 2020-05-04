@@ -29,7 +29,7 @@ class RegisterController extends Controller
         $email = request()->input('email');
         $password = request()->input('password');
         $gRecaptchaResponse = request()->input('g-recaptcha-response');
-        $secretKey = "6Lcuot0UAAAAAEvC1bB0ywMqBZNK5stav7tInrcO";
+        $secretKey = "6LfLYPIUAAAAADqxoBvLv65siE0Ev8B87MX0fbrn";
         $url = "https://www.google.com/recaptcha/api/siteverify?secret=".$secretKey."&response=".$gRecaptchaResponse;
 
         $recaptchaResponse = file_get_contents($url);
